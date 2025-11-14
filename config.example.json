@@ -1,0 +1,55 @@
+{
+  "project": {
+    "name": "Bitcoin Puzzle Hunter",
+    "version": "1.0.0",
+    "description": "Automated Bitcoin puzzle wallet hunter for Ubuntu"
+  },
+
+  "gpu": {
+    "enabled": true,
+    "device_id": 0,
+    "blocks": 256,
+    "threads": 256,
+    "points": 512,
+    "auto_optimize": true
+  },
+
+  "search": {
+    "tool": "keyhunt",
+    "mode": "address",
+    "coin": "BTC",
+    "continue_on_restart": true,
+    "save_progress": true,
+    "progress_interval": 60
+  },
+
+  "puzzles": {
+    "target": [71, 72],
+    "parallel": false,
+    "custom_ranges": {}
+  },
+
+  "output": {
+    "directory": "./results",
+    "log_level": "info",
+    "save_attempts": false,
+    "notification": {
+      "enabled": false,
+      "method": "email",
+      "webhook_url": ""
+    }
+  },
+
+  "performance": {
+    "max_gpu_temp": 85,
+    "throttle_on_overheat": true,
+    "power_limit": 100,
+    "memory_limit": "auto"
+  },
+
+  "security": {
+    "encrypt_found_keys": false,
+    "auto_backup": true,
+    "backup_interval": 3600
+  }
+}
