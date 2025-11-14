@@ -1,0 +1,252 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              GUIA RÁPIDO - TODAS AS 160 CARTEIRAS PUZZLE                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🎯 SCRIPTS COMPLETOS CRIADOS!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📦 ARQUIVOS:
+
+✅ puzzle_completo.sh   - Script Bash completo (todas as 160 carteiras)
+✅ puzzle_completo.py   - Script Python completo (todas as 160 carteiras)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✨ FUNCIONALIDADES:
+
+  ✅ TODAS as 160 carteiras puzzle
+  ✅ Mostra status: RESOLVIDO ou ATIVO
+  ✅ Indica se já foi encontrada
+  ✅ Menu interativo completo
+  ✅ Filtros: Todos / Ativos / Resolvidos
+  ✅ Busca por número específico
+  ✅ Detalhes completos de cada puzzle
+  ✅ Para automaticamente ao encontrar
+  ✅ Salva em arquivo
+  ✅ Recomendações para UserLAnd (CPU)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 COMO USAR:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BASH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+chmod +x puzzle_completo.sh
+./puzzle_completo.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PYTHON
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+chmod +x puzzle_completo.py
+python3 puzzle_completo.py
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📺 O QUE VOCÊ VAI VER:
+
+╔════════════════════════════════════════════════════════════════════╗
+║              TODAS AS 160 CARTEIRAS BITCOIN PUZZLE                 ║
+║             Com Status (Resolvido/Não Resolvido)                  ║
+╚════════════════════════════════════════════════════════════════════╝
+
+Legenda:
+  ✓ RESOLVIDO - Puzzle já foi encontrado
+  ● ATIVO     - Puzzle ainda não encontrado (pode buscar!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Resumo: Total: 160 | Resolvidos: 65 | Ativos: 95
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ESCOLHA UMA OPÇÃO:
+
+  1. Ver todos os puzzles (1-160)
+  2. Ver apenas ATIVOS (não resolvidos)
+  3. Ver apenas RESOLVIDOS
+  4. Buscar puzzle específico (digite o número)
+  5. Puzzles recomendados para UserLAnd (CPU)
+  0. Sair
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Escolha uma opção: 
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📋 OPÇÕES DO MENU:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPÇÃO 1: Ver Todos
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Mostra TODAS as 160 carteiras com:
+• Número do puzzle
+• Endereço Bitcoin
+• Recompensa em BTC
+• Status (Resolvido/Ativo)
+
+┌──────┬────────────────────────────────────────┬─────────────┬────────────┐
+│  #   │              Endereço                  │ Recompensa  │   Status   │
+├──────┼────────────────────────────────────────┼─────────────┼────────────┤
+│  66  │ 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so    │    6.6 BTC  │ ● ATIVO    │
+│  67  │ 1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9    │    6.7 BTC  │ ● ATIVO    │
+│  71  │ 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU    │    7.1 BTC  │ ● ATIVO    │
+│  ...  │ ...                                    │    ...      │ ...        │
+└──────┴────────────────────────────────────────┴─────────────┴────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPÇÃO 2: Ver Apenas Ativos
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Mostra apenas puzzles NÃO RESOLVIDOS (que você pode buscar)
+• Puzzles 66-160 (aproximadamente 95 ativos)
+• Todos marcados com ● ATIVO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPÇÃO 3: Ver Apenas Resolvidos
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Mostra apenas puzzles JÁ RESOLVIDOS
+• Puzzles 1-65 (todos resolvidos)
+• Todos marcados com ✓ RESOLVIDO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPÇÃO 4: Buscar Específico
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Digite o número do puzzle (1-160)
+
+O script mostra:
+
+╔════════════════════════════════════════════════════════════════════╗
+║                    DETALHES DO PUZZLE #66                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+Puzzle:          #66
+Endereço:        13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+Recompensa:      6.6 BTC
+Range Start:     20000000000000000
+Range End:       3ffffffffffffffff
+Status:          ● ATIVO
+Pode Buscar:     SIM
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+● Este puzzle AINDA NÃO FOI ENCONTRADO!
+Você pode buscar esta carteira.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Recomendado para UserLAnd (CPU)
+
+Deseja iniciar a busca deste puzzle? (s/N): 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPÇÃO 5: Recomendados para UserLAnd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Mostra apenas puzzles 66-70 (mais viáveis para CPU de celular)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 STATUS DOS PUZZLES:
+
+┌────────────────┬─────────┬──────────────────────────────────────┐
+│     Range      │ Status  │            Observação                │
+├────────────────┼─────────┼──────────────────────────────────────┤
+│ Puzzles 1-65   │ ✓ TODOS │ Já foram resolvidos                  │
+│                │ RESOLV. │ Não adianta buscar                   │
+├────────────────┼─────────┼──────────────────────────────────────┤
+│ Puzzles 66-70  │ ● ATIVO │ Viável para UserLAnd (CPU)           │
+│                │         │ ⭐ RECOMENDADO para celular          │
+├────────────────┼─────────┼──────────────────────────────────────┤
+│ Puzzles 71-80  │ ● ATIVO │ Difícil para CPU                     │
+│                │         │ Melhor com GPU                       │
+├────────────────┼─────────┼──────────────────────────────────────┤
+│ Puzzles 81-160 │ ● ATIVO │ Muito difícil                        │
+│                │         │ Requer GPU potente                   │
+└────────────────┴─────────┴──────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+
+💡 RECOMENDAÇÕES:
+
+Para UserLAnd (CPU de celular):
+  ✅ Puzzles 66-70 (mais viáveis)
+  ⚠️ Puzzles 71+ (muito difíceis para CPU)
+
+Para PC com GPU:
+  ✅ Puzzles 71-85 (recomendados)
+  ✅ Puzzles 86+ (desafiadores)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 QUANDO BUSCAR UM PUZZLE:
+
+Se o puzzle estiver RESOLVIDO:
+  • Mostra aviso: "JÁ FOI RESOLVIDO!"
+  • Não permite buscar
+  • Volta ao menu
+
+Se o puzzle estiver ATIVO:
+  • Mostra: "AINDA NÃO FOI ENCONTRADO!"
+  • Pergunta se quer buscar
+  • Se sim: Inicia busca automaticamente
+  • Para ao encontrar
+  • Salva em PUZZLE_XX_ENCONTRADO.txt
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔥 EXEMPLO DE USO:
+
+1. Execute: ./puzzle_completo.sh
+2. Escolha opção: 5 (Recomendados para UserLAnd)
+3. Veja puzzles 66-70
+4. Digite: 66
+5. Script mostra: ● ATIVO - Pode buscar!
+6. Confirme: s
+7. Script inicia busca automaticamente
+8. Para automaticamente ao encontrar
+9. Salva em PUZZLE_66_ENCONTRADO.txt
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ VANTAGENS DESTES SCRIPTS:
+
+✓ VÊ TUDO - Todas as 160 carteiras
+✓ STATUS - Sabe se já foi resolvido
+✓ FILTRA - Vê só ativos ou só resolvidos
+✓ DETALHES - Info completa de cada puzzle
+✓ INTELIGENTE - Não deixa buscar puzzles já resolvidos
+✓ AUTOMÁTICO - Para sozinho ao encontrar
+✓ SALVA - Arquivo com todas as info
+✓ RECOMENDA - Indica puzzles viáveis para CPU
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 ARQUIVOS CRIADOS:
+
+✅ puzzle_completo.sh  - Script Bash completo
+✅ puzzle_completo.py  - Script Python completo
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 COMECE AGORA:
+
+chmod +x puzzle_completo.sh puzzle_completo.py
+./puzzle_completo.sh
+
+Escolha opção 5 (Recomendados para UserLAnd)
+Digite 66
+Confirme com 's'
+Deixe rodando!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Boa sorte! 🎯💰📱
+
+═══════════════════════════════════════════════════════════════════════════════
